@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>DoctorSignUp</title>
+    </head>
+	<body>
+        <header>
+        <center>
+            <h1>
+                <FONT COLOR="orange">APOLLO HOSPTIAL</FONT>
+            </h1>
+        </center>
+			<p align="center">
+				<b>
+				<a href="About.html">About</a> |
+				<a href="BRANCHES.html">Branches</a> |
+				<a href="Apollo services.html">Apollo services</a> |
+				<a href="contacts.html">contacts</a> |
+				<a href="Our Doctors.html">our Doctors</a> |
+				<a href="Our Labs.html">Our Labs</a> |
+				<a href="DoctorSign.html">DoctorSignIn</a> |
+				<a href="#">DoctorSingUp</a> |
+				<a href="PatientSignIN.html">PatientSignIn</a> |
+				<a href="PatientSignUp.html">PatientSignUp</a> |
+				<a href="Feedback.html">Feedback</a> 
+				</b>
+			</p>
+			<hr>
+        </header>
+		<form method="post" name="form1" action="ser" >
+			<table align="center"cellspacing="5px" cellpadding="5px">
+				<tr>
+					<td>
+						<label for="id0">First Name</label>
+					</td>
+					<td>
+						<label for="id1">Last Name</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="fn" id="id0">
+					</td>
+					<td>
+						<input type="text" name="ln" id="id1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="id2">User Name</label>
+					</td>
+					<td>
+						<label for="id3">Password</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="un" id="id2">
+					</td>
+					<td>
+						<input type="Password" name="p" id="id3">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="id4">Email Id</label>
+					</td>
+					<td>
+						<label for="id5">Mobile No</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="Email" name="e" id="id4">
+					</td>
+					<td>
+						<input type="Number" name="N" id="id5">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="id6"> Specialized in</label>
+					</td>
+					<td>
+						<label for="id7"> Gender</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<select name="Specializations" id="id6">
+                        <option value="spw">Please select a specialist</option>
+                        <option value="cardiology">Cardiology</option> 
+                        <option value="Cancer Care">Cancer Care</option>
+                        <option value="Neurology And Neurosurgery">Neurology And Neurosurgery</option>
+                        <option value="Gastroenterology">Gastroenterology</option>
+                        <option value="Transplants">Transplants</option>
+                        <option value="Critical Care Services">Critical Care Services</option>
+                        <option value="Bariatric Surgery">Bariatric Surgery</option>
+                        <option value="Paediatrics">Paediatrics</option>
+                        <option value="ent">ENT</option>
+                        <option value="psychiatrist">Psychiatrist</option>
+                        <option value="surgeon">Surgeon</option>
+                        <option value="oncologist">Oncologist</option>
+                    </select>
+					</td>
+					<td>
+						<select name="Gender" id="id7">
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+							<option value="other">Other</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<label for="id8">State</label>
+				</td>
+				<td>
+					<label for="id9">City</label>
+				</td>
+				</tr>
+				<tr>
+					<td>
+						<select id="id8" name="country-state">
+                        <option value="">Please Select a state</option>
+                        <option value="AN">Andaman and Nicobar Islands</option>
+                        <option value="AP">Andhra Pradesh</option>
+                        <option value="AR">Arunachal Pradesh</option>
+                        <option value="AS">Assam</option>
+                        <option value="BR">Bihar</option>
+                        <option value="CH">Chandigarh</option>
+                        <option value="CT">Chhattisgarh</option>
+                        <option value="DN">Dadra and Nagar Haveli</option>
+                        <option value="DD">Daman and Diu</option>
+                        <option value="DL">Delhi</option>
+                        <option value="GA">Goa</option>
+                        <option value="GJ">Gujarat</option>
+                        <option value="HR">Haryana</option>
+                        <option value="HP">Himachal Pradesh</option>
+                        <option value="JK">Jammu and Kashmir</option>
+                        <option value="JH">Jharkhand</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="KL">Kerala</option>
+                        <option value="LA">Ladakh</option>
+                        <option value="LD">Lakshadweep</option>
+                        <option value="MP">Madhya Pradesh</option>
+                        <option value="MH">Maharashtra</option>
+                        <option value="MN">Manipur</option>
+                        <option value="ML">Meghalaya</option>
+                        <option value="MZ">Mizoram</option>
+                        <option value="NL">Nagaland</option>
+                        <option value="OR">Odisha</option>
+                        <option value="PY">Puducherry</option>
+                        <option value="PB">Punjab</option>
+                        <option value="RJ">Rajasthan</option>
+                        <option value="SK">Sikkim</option>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="TG">Telangana</option>
+                        <option value="TR">Tripura</option>
+                        <option value="UP">Uttar Pradesh</option>
+                        <option value="UT">Uttarakhand</option>
+                        <option value="WB">West Bengal</option>
+                    </select>
+					</td>
+					<td>
+						<select id="id9" name="cities">
+                        <option value="cty">Please select a city</option>
+                        <option value="hyd">Hyderabad</option>
+                        <option value="chn">chennai</option>
+                        <option value="del">Delhi</option>
+                        <option value="bgr">Banglore</option>
+                        <option value="mum">Mumbai</option>
+                        <option value="tvr">Thiruvananthapuram</option>
+                        <option value="vjy">vijaywada</option>
+                        <option value="imp">Imphal</option>
+                    </select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="id10">Address</label>
+					</td>
+					<td>
+						<label for="id11">PinCode</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<textarea id="id10"></textarea>
+					</td>
+					<td>
+						<input type="Number" name="code" id="id11">
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td align="right">
+						<input type="submit" name="submit" value="submit">
+					</td>
+				</tr>
+
+			</table>
+		</form><br><br><br><hr>
+		<footer>
+		  	<font color="blue"><center>copyright@360Digirii</center></font>
+		</footer>
+	</body>
+</html>
