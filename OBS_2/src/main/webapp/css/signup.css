@@ -1,0 +1,229 @@
+.headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: lightgreen;*/
+    padding: 10px
+   
+}
+
+.logo-img {
+	flex: 1;
+    height: 50px;
+    width: 50px;
+}
+
+.search-bar {
+	flex: 2;
+	display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.search-bar input {
+    width: 40%;
+    font-size: 16px;
+}
+
+.search-bar button img{
+    height: 10px;
+    width: 14px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.account a {
+	margin-left: 10px;
+    text-align: right;
+    font-size: 16px;
+    position: relative;
+    text-decoration: none;
+}
+.cart {
+	width: 30px;
+    height: 30px;
+}
+
+.account a + a:before {
+	
+    position: absolute;
+    left: -10px;
+    color: #000; 
+}
+
+.header-nav {
+	
+	padding:10px;
+	background-color: #4B0A50;
+    text-align: center;
+}
+
+.header-nav a{
+	color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.heart-icon {
+    margin-right: 20px;
+    padding-left: 90px;
+}
+
+
+main {
+    align-content: right;
+    margin-top: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Adjusts space between the two sections */
+    align-items: flex-start; /* Aligns items at the top */
+}
+
+.header-OBS h1{
+	margin-left: 300px;
+	padding-top: 50px;	
+}
+
+.header-OBS p{
+	margin-left: 250px;
+	font-size: 12px;	
+}
+
+.add-book-section {
+    max-width: 600px;
+    margin-left: 100px;
+    margin-right: 200px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-book-section h1 {
+    margin-bottom: 10px;
+    padding-right:100px;
+    color: #4c105e;
+    font-size: 25px;
+}
+
+.add-book-section p {
+    color: #6d2077;
+}
+
+form .form-group {
+    margin-bottom: 5px;
+    margin-left: 25px;
+    text-align: left;
+    height: 60px;
+}
+
+form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form .form-group input{
+	width: 100%;
+	
+}
+form .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form .form-group button {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #4c105e;
+    color: white;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 15%;
+ 	margin-top: 7%;   
+}
+
+#company-name,
+#company-location,
+#gst-no {
+    display: none;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5a156f;
+    padding: 30px;
+    color: #fff;
+}
+
+.footer-section {
+    width: 18%;
+}
+
+.logo-section {
+    width: 20%;
+}
+
+.footer-section h2 {
+	margin-top: 60px;
+	margin-left: 65px;
+    margin-bottom: 10px;
+    border-bottom: none;
+    padding-bottom: 5px;
+    font-size: 50px;
+}
+
+.footer-quote1 {
+	margin-left: 60px;
+	font-size: 13px;
+}
+
+.footer-quote2 {
+	margin-left: 70px;
+	font-size: 13px;
+}
+.footer-info .footer-section h4 {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.footer-info .footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-info .footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-info .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-info .footer-section ul img{
+	height: 20px;
+    width: 15px;
+}
+.footer-bottom {
+    background-color: #7e2389;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.footer-bottom .social-icons img {
+    width: 20px;
+    height: 40px;
+    padding-top: 15px;
+    margin: 0 10px;
+}
